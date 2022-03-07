@@ -108,7 +108,7 @@ If you want to manage the version history of your reports and datasets, use [Pow
 
 For enterprise scale deployments, it's recommended to separate dataset development, and the development of reports and dashboards. To promote changes to only a report or a dataset, use the deployment pipelines selective deploy option.  
 
-This approach should start from Power BI Desktop, by creating a separate PBIX file for datasets and reports. For example, you can create a dataset PBIX file and uploaded it to the development stage. Later, your report authors can create a new PBIX only for the report, and [connect it to the published dataset](../connect-data/service-datasets-discover-across-workspaces.md) using a live connection. This technic allows different creators to separately work on modeling and visualizations, and deploy them to production independently.
+This approach should start from Power BI Desktop, by creating a separate PBIX file for datasets and reports. For example, you can create a dataset PBIX file and uploaded it to the development stage. Later, your report authors can create a new PBIX only for the report, and [connect it to the published dataset](../connect-data/service-datasets-discover-across-workspaces.md) using a live connection. This technique allows different creators to separately work on modeling and visualizations, and deploy them to production independently.
 
 With [shared datasets](../connect-data/service-datasets-share.md), you can also use this method across workspaces.
 
